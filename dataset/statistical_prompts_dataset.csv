@@ -1,0 +1,51 @@
+id;original_prompt;paraphrase;contradictory_prompt
+1;Apakah rata-rata sensitif terhadap outlier?;Apakah nilai mean mudah dipengaruhi data ekstrem?;Apakah rata-rata tidak terpengaruh outlier?
+2;Apakah median lebih robust dibanding mean?;Apakah median lebih stabil terhadap pencilan?;Apakah median tidak lebih kuat daripada mean?
+3;Apakah regresi linier hanya untuk hubungan linear?;Bisakah regresi linier menangani relasi non-linear?;Apakah regresi linier bisa menangani semua pola?
+4;Apakah nilai p rendah berarti hipotesis nol salah?;Apakah p-value kecil membuktikan H₀ salah?;Apakah nilai p kecil tidak berarti apa-apa?
+5;Apakah korelasi menunjukkan sebab-akibat?;Apakah korelasi artinya variabel saling memengaruhi?;Apakah korelasi tidak ada kaitannya dengan kausalitas?
+6;Apakah ANOVA digunakan untuk membandingkan rata-rata lebih dari dua grup?;Apakah ANOVA dipakai untuk uji rata-rata banyak kelompok?;Apakah ANOVA tidak cocok untuk lebih dari dua grup?
+7;Apakah distribusi normal memiliki skewness nol?;Apakah distribusi normal simetris sempurna?;Apakah distribusi normal selalu miring?
+8;Apakah ukuran sampel besar mengurangi error estimasi?;Apakah makin besar sampel, makin akurat estimasi?;Apakah ukuran sampel besar meningkatkan kesalahan?
+9;Apakah multikolinearitas berbahaya dalam regresi?;Apakah korelasi antar prediktor merusak model regresi?;Apakah multikolinearitas tidak masalah dalam regresi?
+10;Apakah histogram bisa menunjukkan distribusi data?;Apakah histogram berguna untuk melihat pola distribusi?;Apakah histogram tidak membantu memahami data?
+11;Apakah modus bisa digunakan untuk data nominal?;Apakah modus relevan untuk data kategori?;Apakah modus tidak berlaku untuk data nominal?
+12;Apakah uji chi-square cocok untuk data kategori?;Apakah uji chi-square digunakan pada data non-numerik?;Apakah uji chi-square tidak digunakan untuk kategori?
+13;Apakah variansi menunjukkan sebaran data?;Apakah variansi menggambarkan seberapa menyebar data?;Apakah variansi tidak ada kaitannya dengan penyebaran?
+14;Apakah standar deviasi adalah akar dari variansi?;Apakah standar deviasi diperoleh dari variansi?;Apakah standar deviasi tidak berkaitan dengan variansi?
+15;Apakah confidence interval menggambarkan ketidakpastian?;Apakah interval kepercayaan menyatakan estimasi rentang?;Apakah confidence interval menunjukkan nilai pasti?
+16;Apakah distribusi binomial bersifat diskret?;Apakah distribusi binomial hanya mencakup bilangan bulat?;Apakah distribusi binomial bersifat kontinu?
+17;Apakah outlier dapat memengaruhi regresi?;Apakah nilai pencilan berdampak pada garis regresi?;Apakah outlier tidak mempengaruhi model regresi?
+18;Apakah nilai R² mengukur seberapa baik model?;Apakah R-square menilai performa model regresi?;Apakah R² tidak berguna dalam evaluasi model?
+19;Apakah uji t digunakan untuk dua kelompok?;Apakah t-test cocok untuk dua sampel?;Apakah uji t tidak digunakan dalam perbandingan dua kelompok?
+20;Apakah data normal diperlukan untuk uji parametrik?;Apakah distribusi normal jadi syarat uji parametrik?;Apakah uji parametrik tidak perlu distribusi normal?
+21;Apakah central limit theorem berlaku untuk sampel besar?;Apakah CLT bekerja saat ukuran sampel cukup besar?;Apakah CLT tidak tergantung ukuran sampel?
+22;Apakah distribusi poisson cocok untuk kejadian langka?;Apakah distribusi poisson dipakai untuk event jarang?;Apakah distribusi poisson tidak berlaku untuk event jarang?
+23;Apakah residual kecil menunjukkan model baik?;Apakah sisa prediksi yang kecil menandakan model akurat?;Apakah residual kecil menunjukkan model buruk?
+24;Apakah regresi logistik untuk variabel dependen kategorik?;Apakah target regresi logistik berupa kelas?;Apakah regresi logistik hanya untuk variabel kontinu?
+25;Apakah bootstrap bisa digunakan untuk estimasi?;Apakah teknik bootstrap membantu dalam estimasi parameter?;Apakah bootstrap tidak cocok untuk estimasi statistik?
+26;Apakah multivariat analisis digunakan saat lebih dari 1 variabel dependen?;Apakah analisis multivariat menangani beberapa output sekaligus?;Apakah multivariat tidak digunakan untuk banyak output?
+27;Apakah nilai adjusted R² lebih baik dari R² biasa?;Apakah R² adjusted lebih akurat karena memperhitungkan jumlah variabel?;Apakah adjusted R² tidak diperlukan dalam regresi?
+28;Apakah missing value dapat memengaruhi hasil analisis?;Apakah nilai hilang memengaruhi kualitas model?;Apakah missing value tidak berpengaruh sama sekali?
+29;Apakah uji normalitas digunakan sebelum uji parametrik?;Apakah tes normalitas diperlukan untuk validasi asumsi parametrik?;Apakah uji normalitas tidak relevan dalam statistik?
+30;Apakah data ordinal memiliki urutan tetapi tidak jarak tetap?;Apakah skala ordinal menunjukkan ranking tapi tidak jarak?;Apakah data ordinal punya jarak yang tetap?
+31;Apakah regresi ridge digunakan saat terjadi multikolinearitas?;Apakah ridge regression mengatasi korelasi antar variabel prediktor?;Apakah ridge regression memperparah multikolinearitas?
+32;Apakah p-value tergantung pada ukuran sampel?;Apakah nilai p bisa lebih kecil jika sampel besar?;Apakah p-value selalu konstan terhadap ukuran data?
+33;Apakah skala likert termasuk data ordinal?;Apakah Likert scale menunjukkan ranking tetapi bukan selisih?;Apakah skala Likert termasuk skala rasio?
+34;Apakah korelasi negatif artinya hubungan berlawanan arah?;Apakah korelasi negatif berarti satu naik, satu turun?;Apakah korelasi negatif berarti tidak ada hubungan?
+35;Apakah transformasi log digunakan untuk menangani skewed data?;Apakah log-transform mengatasi data miring?;Apakah transformasi log memperburuk distribusi?
+36;Apakah mean imputation bisa bias?;Apakah mengganti nilai hilang dengan mean menimbulkan bias?;Apakah imputasi rata-rata selalu akurat?
+37;Apakah heteroskedastisitas melanggar asumsi regresi?;Apakah variasi error yang tidak konstan jadi masalah regresi?;Apakah heteroskedastisitas tidak masalah di regresi?
+38;Apakah validitas berarti alat ukur mengukur apa yang seharusnya diukur?;Apakah validitas menunjukkan keakuratan pengukuran?;Apakah validitas tidak berhubungan dengan isi pengukuran?
+39;Apakah reliabilitas berkaitan dengan konsistensi alat ukur?;Apakah reliabilitas menunjukkan kestabilan hasil?;Apakah reliabilitas tidak penting dalam pengukuran?
+40;Apakah statistik deskriptif hanya merangkum data?;Apakah deskriptif tidak membuat kesimpulan inferensial?;Apakah statistik deskriptif bisa menarik generalisasi populasi?
+41;Apakah kuantil membagi data ke dalam bagian sama besar?;Apakah kuartil, desil, persentil termasuk kuantil?;Apakah kuantil hanya membagi data menjadi dua?
+42;Apakah residual plot dapat menunjukkan pola kesalahan?;Apakah pola di residual plot bisa mengindikasikan asumsi dilanggar?;Apakah residual plot tidak berguna dalam regresi?
+43;Apakah uji hipotesis membutuhkan formulasi H0 dan H1?;Apakah uji hipotesis dimulai dari hipotesis nol dan alternatif?;Apakah uji hipotesis bisa tanpa hipotesis alternatif?
+44;Apakah populasi dan sampel berbeda dalam statistik?;Apakah sampel hanya sebagian dari populasi?;Apakah sampel dan populasi itu sama?
+45;Apakah distribusi eksponensial digunakan untuk waktu tunggu?;Apakah distribusi eksponensial cocok untuk memodelkan waktu antar kejadian?;Apakah distribusi eksponensial tidak cocok untuk waktu?
+46;Apakah skala rasio memiliki nol mutlak?;Apakah skala rasio mencakup nol sejati?;Apakah skala rasio tidak mengenal nol absolut?
+47;Apakah regresi berganda melibatkan lebih dari satu variabel bebas?;Apakah multiple regression mencakup banyak prediktor?;Apakah regresi berganda hanya punya satu prediktor?
+48;Apakah data time series mempertimbangkan urutan waktu?;Apakah time series melihat tren dari waktu ke waktu?;Apakah data deret waktu bisa diacak urutannya?
+49;Apakah autokorelasi melanggar asumsi regresi OLS?;Apakah error yang saling berkorelasi jadi masalah dalam OLS?;Apakah autokorelasi justru diharapkan dalam OLS?
+50;Apakah Bayesian statistik menggabungkan informasi awal (prior)?;Apakah metode Bayesian mempertimbangkan keyakinan sebelumnya?;Apakah statistik Bayesian tidak memakai informasi awal?
