@@ -58,7 +58,7 @@ for _, row in df.iterrows():
 # Save results to CSV
 keys = results[0].keys()
 with open(output_path, "w", newline="", encoding="utf-8") as f:
-    writer = csv.DictWriter(f, fieldnames=keys)
+    writer = csv.DictWriter(f, fieldnames=keys, delimiter=';')
     writer.writeheader()
     writer.writerows(results)
 
