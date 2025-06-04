@@ -33,6 +33,7 @@ for i, row in questions_df.iterrows():
 
         sim_ori_rep1 = semantic_similarity(res_ori.values[0], res_rep1.values[0])
         sim_ori_rep2 = semantic_similarity(res_ori.values[0], res_rep2.values[0])
+        sim_ori_rep3 = semantic_similarity(res_rep1.values[0], res_rep2.values[0])
 
         results.append({
             'id': row['id'],
@@ -45,8 +46,10 @@ for i, row in questions_df.iterrows():
             'response_repetition_2': res_rep2.values[0],
             'semantic_similarity_ori_rep1': sim_ori_rep1,
             'semantic_similarity_ori_rep2': sim_ori_rep2,
+            'semantic_similarity_ori_rep3': sim_ori_rep3,
             'is_consistent_with_repetition_1': sim_ori_rep1 >= SIMILAR_THRESHOLD,
-            'is_consistent_with_repetition_2': sim_ori_rep2 >= SIMILAR_THRESHOLD
+            'is_consistent_with_repetition_2': sim_ori_rep2 >= SIMILAR_THRESHOLD,
+            'is_consistent_with_repetition_3': sim_ori_rep3 >= SIMILAR_THRESHOLD
         })
     if i==7:
         break
